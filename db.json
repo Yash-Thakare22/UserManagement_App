@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 6,
+      "email": "raj@yahoo.com",
+      "firstName": "Raj",
+      "lastName": "Thakare"
+    },
+    {
+      "id": 7,
+      "email": "mayank@gmail.com",
+      "firstName": "Mayank",
+      "lastName": "Bucha"
+    },
+    {
+      "id": 8,
+      "email": "navanit@yahoo.com",
+      "firstName": "Navanit",
+      "lastName": "Srisangkar"
+    },
+    {
+      "id": 9,
+      "firstName": "Yash",
+      "lastName": "Thakare",
+      "email": "yash123@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<div style="color:white; background-color: purple;
+ padding:10px">
+  <h2 class="text-center" style="margin-top:20px">
+    AtoZ Solutions - User Management App ..!
+  </h2>
+
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <router-outlet></router-outlet>
+    </div>
+    <div class="col-md-5">
+      <br />    
+    </div>
+  </div>
+  <br /><br />
+  <a class="text-right" [routerLink]="['/login']"><h3>Login..</h3></a>     
+  <footer>
+    <div class="row">
+      <div class="col-md-7">
+        <span class="text-danger">
+          <strong>This site is copyright &copy; to LTI.
+            All rights are reserved here.
+          </strong></span>
+      </div>
+      <div class="col-md-5">
+        <span class="text-primary text-right">
+          <!-- <strong> {{ todaysDate | date:'dd/MM/yy'}} | {{ todaysDate | date:'shortTime'}} </strong> -->
+          <!-- <strong> {{ todaysDate | date:'dd-MM-yyyy'}} </strong> -->
+        </span>
+      </div>
+    </div>
+  </footer>
+</div>
